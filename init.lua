@@ -1,1 +1,2 @@
-require("seafoamteal")
+require("seafoamteal.core")
+require("seafoamteal.lazy")
