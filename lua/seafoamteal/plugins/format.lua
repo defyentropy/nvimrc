@@ -4,9 +4,10 @@ return {
         require("conform").setup({
             formatters_by_ft = {
                 javascript = { "prettier" },
+                astro = { "prettier" }
             },
-            format_on_save = {
-                timeout_ms = 500,
+            format_after_save = {
+                -- timeout_ms = 2500,
                 lsp_format = "fallback",
             },
         })        
