@@ -12,9 +12,6 @@ return {
             ensure_installed = {
                 "clangd",
                 "pyright",
-                "html",
-                "tsserver",
-                "cssls",
             },
         })
     end
